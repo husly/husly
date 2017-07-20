@@ -1,1 +1,106 @@
+h1 {
+padding-left: 20px;
+padding-right: 20px;
+font-family:'Oswald';
+color: black;
+text-align: left;
+font-size: 35px;
+}
 
+h2 {
+padding-left: 20px;
+padding-right: 20px;
+font-family:'Oswald';
+color: black;
+text-align: center;
+font-size: 30px;
+}
+
+p {
+font-family:'Oswald';
+color: black;
+text-align: center;
+font-size: 25px;
+}
+
+nav {
+  font-family: 'Chewy', cursive;
+  font-size: 20px;
+  border-bottom: thin solid black;
+}
+
+body {
+  font-family: 'Oswald', sans-serif;
+}
+
+#container {
+  border-bottom: thin solid black;
+}
+
+#img {
+  width: 10%;
+  height: 10%;
+  margin-bottom: -35px;
+}
+
+nav ul li, footer ul li, #nav ul li {
+  display: inline;
+  margin-right: 20px;
+  color: black;
+  font-size: 30px;
+}
+
+nav ul, footer ul{
+  padding: 0px;
+  list-style: none;
+  font-weight: bold;
+}
+
+#help {
+  border-radius: 4px;
+  background-color: #f49373;
+  border: none;
+  color: black;
+  text-align: center;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  float: right;
+}
+
+#help span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+#help span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+#help:hover span {
+  padding-right: 25px;
+}
+
+#help:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+hr {
+	text-align: center;
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: 100px;
+  margin-right: 100px;
+  border-style: inset;
+  border-width: 1px;
+}
