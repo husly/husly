@@ -1,0 +1,262 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>Q&A</title>
+    <link href="https://fonts.googleapis.com/css?family=Chewy|Oswald" rel="stylesheet">
+  </head>
+  <style>
+
+
+  nav ul li, footer ul li, #nav ul li {
+      display: inline;
+      margin-right: 20px;
+      color: black;
+      font-size: 30px;
+  }
+
+  h1{
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 0px;
+  font-family:'Oswald';
+  color: black;
+  text-align: left;
+  font-size: 35px;
+  }
+
+  h2{
+  padding-left: 20px;
+  padding-right: 20px;
+  font-family:'Oswald';
+  color: black;
+  text-align: center;
+  font-size: 30px;
+  }
+
+  p{
+  padding-top: 0px;
+  font-family:'Oswald';
+  color: black;
+  text-align: center;
+  font-size: 25px;
+  }
+
+  p1{
+  font-size: 25px;
+  padding-left: 40px;
+  font-family:chewy ;
+  padding-right: 40px"
+  }
+
+
+  nav {
+    font-family: 'Chewy', cursive;
+    font-size: 20px;
+    border-bottom: thin solid black;
+  }
+
+  body {
+    font-family: 'Oswald', sans-serif;
+  }
+
+  nav ul li, footer ul li, #nav ul li {
+    display: inline;
+    margin-right: 20px;
+    color: black;
+    font-size: 30px;
+  }
+
+  nav ul, footer ul{
+    padding: 0px;
+    list-style: none;
+    font-weight: bold;
+  }
+
+  #container {
+    border-bottom: thin solid black;
+  }
+
+  #text {
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+
+  #img {
+    width: 10%;
+    height: 10%;
+    margin-bottom: -35px;
+  }
+
+  #help {
+    border-radius: 4px;
+    background-color: #f49373;
+    border: none;
+    color: black;
+    text-align: center;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    float: right;
+  }
+
+  #help span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+
+  #help span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+
+  #help:hover span {
+    padding-right: 25px;
+  }
+
+  #help:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+
+  hr {
+  	text-align: center;
+      display: block;
+      padding-top: 0px;
+      margin-left: 300px;
+      margin-right: 300px;
+      border-style: inset;
+      border-width: 1px;
+  }
+
+  .button {
+    border: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    background: #B2B3EA;
+    width: 500px;
+    height: 125px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+  #demo1, #demo2, #demo3, #demo4 {
+    font-family:'Oswald';
+    color: black;
+    text-align: center;
+    font-size: 25px;
+    padding-left: 200px;
+    padding-right: 200px;
+  }
+
+  </style>
+  <body>
+    <nav>
+      <ul>
+        <li><img id =img src="logo.png"></li>
+        <li>Animal Shelters</li>
+        <li>Pet Stores</li>
+        <li>Pet Care</li>
+        <li>About Us</li>
+        <li>Q&A</li>
+        <li id=help><span>Donate</span></li>
+      </ul>
+    </nav>
+    <div id =container>
+      <table style="border: 5px solid Black ;margin:  0 auto; margin-top: 20px; color:black; background-color:#76D7C4; font-family:Oswald; font-size:20; " >
+<tr>
+<td>
+<h1>
+Q&A
+</h1>
+</td>
+</tr>
+</table>
+<hr>
+
+      <p style= "padding-top:5px; ">
+      <button class="button" onclick="myFunction1()"><p1> Q: Do you accept donations? <input type="image" style="height:30px;width:20px; " src="Q.png"/></button>
+      <p style="padding-left: 300px;padding-right: 300px" id="demo1" >
+      <hr></p></p1>
+
+      <p style= "padding-top:5px; ">
+      <button class="button" onclick="myFunction2()"><p1 style="padding-left: 40px; font-family:chewy ;padding-right: 40px"> Q: I know someone who abuses their animal, what should I do?  <input type="image" style="height:30px;width:20px; " src="Q.png"/></button>
+      <p style="padding-left: 300px;padding-right: 300px" id="demo2" >
+      <hr></p></p1>
+
+      <p style= "padding-top:5px; ">
+      <button class="button" onclick="myFunction3()"><p style="padding-left: 40px; font-family:chewy ;padding-right: 40px"> Q: Can I adopt a stray?  <input type="image" style="height:30px;width:20px; " src="Q.png"/></button>
+      <p style="padding-left: 300px;padding-right: 300px" id="demo3" >
+      <hr></p></p1>
+
+      <p style= "padding-top:5px; ">
+      <button class="button" onclick="myFunction4()"><p style="padding-left: 40px; font-family:chewy ;padding-right: 40px"> Q: Do you bill for veterinary services?  <input type="image" style="height:30px;width:20px; " src="Q.png"/></button>
+      <p style="padding-left: 300px;padding-right: 300px" id="demo4" >
+      <hr></p></p1>
+
+      <p style= "padding-top:5px; ">
+      <button class="button" onclick="myFunction5()"><p style="padding-left: 40px; font-family:chewy ;padding-right: 40px"> Q: Where can I adopt a pet?  <input type="image" style="height:30px;width:20px; " src="Q.png"/></button>
+      <p style="padding-left: 300px;padding-right: 300px" id="demo5" >
+      <hr></p></p1>
+
+      <p style= "padding-top:5px; ">
+      <button class="button" onclick="myFunction6()"><p1> Q: I can no longer keep my pet. Where should I do?  <input type="image" style="height:30px;width:20px; " src="Q.png"/></button>
+      <p style="padding-left: 300px;padding-right: 300px" id="demo6" >
+      <hr></p></p1>
+
+      <p style= "padding-top:5px; ">
+      <button class="button" onclick="myFunction7()"><p1> Q: What do shelter's do?  <input type="image" style="height:30px;width:20px; " src="Q.png"/></button>
+      <p style="padding-left: 300px;padding-right: 300px" id="demo7" >
+      <hr></p></p1>
+
+      <p style= "padding-top:5px; ">
+      <button class="button" onclick="myFunction8()"><p1> Q: How much does it cost to adopt?  <input type="image" style="height:30px;width:20px; " src="Q.png"/></button>
+      <p style="padding-left: 300px;padding-right: 300px" id="demo8" >
+      <hr></p></p1>
+
+      <p style="font-family: chewy;"> If you have any more questions feel free to email us at contact@husly.org </p>
+
+    </div>
+<script>
+function myFunction1(){
+    document.getElementById("demo1").innerHTML = "A: Yes we accept donations. Go over to the donation's tab and find organizations that support animals to donate. Any amount would be a big help." ;
+}
+
+function myFunction2(){
+  document.getElementById("demo2").innerHTML = "A: You would need to contact Animal Controll Services to deal with that kind of problem.";
+}
+
+function myFunction3(){
+  document.getElementById("demo3").innerHTML = "A: You should first need to call your local Adoption Center and check in with the animal. They will help scan the animal if it belonged to any one. If the animal has no owner, you may adopt it. You should make sure that your animal is legal to adopt and have it checked out.";
+}
+
+function myFunction4(){
+  document.getElementById("demo4").innerHTML ="A: No, please visit your local vet for information.";
+}
+
+function myFunction5(){
+  document.getElementById("demo5").innerHTML ="A: You can adopt a pet at an animal shelter! Make sure you take great care of your new family member!";
+}
+
+function myFunction6(){
+  document.getElementById("demo6").innerHTML ="A: It's always hard when you cannot care for your own pet anymore. You should contact organizations for pet animals and see if their could be anything you can do to keep your companion. If not, it's suggested to bring it to your local shelter.";
+}
+
+function myFunction7(){
+  document.getElementById("demo7").innerHTML ="A: It really depends on the shelter. Some take only strays or pets that were given up by their owner. Some shelters may do both. The animals are kept in the shelter to find them a home and you can be one of them that can! ";
+}
+
+function myFunction8(){
+  document.getElementById("demo8").innerHTML ="A: It really depends on the shelter and what type of animal you are trying to adopt. Try vistiting your local shelter's website to find more information. ";
+}
+</script>
+  </body>
+</html>
