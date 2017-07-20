@@ -28,6 +28,50 @@ nav, #nav {
   font-size: 20px;
   border-bottom: thin solid black;
 }
+
+#img {
+  width: 10%;
+  height: 10%;
+  margin-bottom: -35px;
+}
+	
+#help {
+  border-radius: 4px;
+  background-color: #f49373;
+  border: none;
+  color: black;
+  text-align: center;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  float: right;
+}
+
+#help span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+#help span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+#help:hover span {
+  padding-right: 25px;
+}
+
+#help:hover span:after {
+  opacity: 1;
+  right: 0;
+}
 </style>
 
 <nav>
@@ -43,7 +87,7 @@ nav, #nav {
         <li>Pet Care</li>
         <li>About Us</li>
         <li>Q&A</li>
-        <li id=help>How to Help</li>
+        <li id=help>Donate</li>
       </ul>
 </nav>
 <table style="border: 5px solid Black ;margin:  0 auto; margin-top: 5px; color:black; background-color:#76D7C4; font-family:oswald; font-size:30; " >
