@@ -3,7 +3,8 @@
 }
 
 body {
-
+  background: url("bg.png") no-repeat;
+  background-size: cover;
 }
 
 nav ul li, footer ul li, #nav ul li {
