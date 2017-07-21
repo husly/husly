@@ -134,19 +134,19 @@ a {
   text-decoration: none;
   outline: none;
   color: #fff;
-  background-color: #4CAF50;
+  background-color: #B2B3EA;
   border: none;
   border-radius: 15px;
-  box-shadow: 0 9px #999;
+  box-shadow: 0 9px #ACCFDC;
   font-family: chewy;
 }
 
 .button:hover {
-  background-color: #3e8e41
+  background-color: #B2B3EA
 }
 
 .button:active {
-  background-color: #3e8e41;
-  box-shadow: 0 5px #666;
+  background-color: #B2B3EA;
+  box-shadow: 0 5px #ACCFDC;
   transform: translateY(4px);
 }
