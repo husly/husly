@@ -1,0 +1,113 @@
+h1 {
+  font-family: chewy;
+  font-size: 50px;
+}
+
+p {
+  font-size: 30px;
+}
+
+.img-circle {
+border-radius: 50%;
+border: 3px solid black;
+height: 200px;
+width: 200px;
+margin-bottom: 20px;
+margin-left: 20px;
+}
+
+nav {
+  font-family: 'Chewy', cursive;
+  font-size: 20px;
+  border-bottom: thin solid black;
+}
+
+body {
+  font-family: 'Oswald', sans-serif;
+}
+
+nav ul li, footer ul li, #nav ul li {
+  display: inline;
+  margin-right: 20px;
+  color: black;
+  font-size: 30px;
+}
+
+nav ul, footer ul{
+  padding: 0px;
+  list-style: none;
+  font-weight: bold;
+}
+
+#container {
+  border-bottom: thin solid black;
+}
+
+#img {
+  width: 10%;
+  height: 10%;
+  margin-bottom: -35px;
+}
+
+#help {
+  border-radius: 4px;
+  background-color: #f49373;
+  border: none;
+  color: black;
+  text-align: center;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  float: right;
+  margin-top: 18px;
+}
+
+#help span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+#help span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+#help:hover span {
+  padding-right: 25px;
+}
+
+#help:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+
+#about {
+  border: 5px solid black;
+  padding: 5px;
+  background-color: #76D7C4;
+}
+
+#body {
+  text-align: center;
+  border-bottom: 5px dotted black;
+  border-top: 5px dotted black;
+}
+
+.about {
+  border-bottom: 5px dotted black;
+}
+
+#pad {
+  padding-left: 100px;
+}
