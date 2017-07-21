@@ -21,10 +21,6 @@ nav ul, footer ul{
   font-weight: bold;
 }
 
-#container {
-  border-bottom: thin solid black;
-}
-
 #img {
   width: 10%;
   height: 10%;
