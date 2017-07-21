@@ -51,6 +51,7 @@ a:hover {
   transition: all 0.5s;
   cursor: pointer;
   float: right;
+  margin-top: 10px;
 }
 
 #help span {
