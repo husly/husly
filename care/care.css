@@ -146,7 +146,7 @@ a {
 }
 
 .button:active {
-  background-color: #grey;
-  box-shadow: 0 5px #ACCFDC;
+  background-color: #B3B3EB;
+  box-shadow: 0 5px #B3B3EB;
   transform: translateY(4px);
 }
