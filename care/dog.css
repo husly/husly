@@ -1,7 +1,34 @@
+nav ul li, footer ul li, #nav ul li {
+    display: inline;
+    margin-right: 20px;
+    color: black;
+    font-size: 30px;
+}
+
+body {
+  font-family: 'Oswald', sans-serif;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  vertical-align: baseline;
+  background: url("bg2.png");
+  background-size: 2500px 3000px;
+
+}
 nav {
+  background: url("bgq.png") no-repeat;
+  background-size: 100% 100%;
   font-family: 'Chewy', cursive;
   font-size: 20px;
   border-bottom: thin solid black;
+  padding-top: 0px;
+  margin: 0;
+  padding-bottom: 20px;
+  padding-top: 10px;
+  border: 0;
+  outline: 0;
+  vertical-align: baseline;
 }
 
 h2 {
@@ -27,6 +54,36 @@ nav ul, footer ul{
   padding: 0px;
   list-style: none;
   font-weight: bold;
+}
+
+nav ul, footer ul, #nav ul{
+ 	font-family:'chewy';
+    padding: 0px;
+    list-style: none;
+    font-weight: bold;
+}
+nav ul li, footer ul li, #nav ul li {
+  display: inline;
+  margin-right: 20px;
+  color: black;
+  font-size: 30px;
+
+}
+
+nav ul, footer ul{
+  padding: 0px;
+  list-style: none;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  vertical-align: baseline;
+}
+
+nav, #nav {
+  font-size: 20px;
+  border-bottom: thin solid black;
 }
 
 #container {
