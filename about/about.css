@@ -7,6 +7,10 @@ p {
   font-size: 30px;
 }
 
+p1{
+  font-size: 25px;
+}
+
 .img-circle {
 border-radius: 50%;
 border: 3px solid black;
@@ -16,29 +20,46 @@ margin-bottom: 20px;
 margin-left: 20px;
 }
 
-nav {
-  font-family: 'Chewy', cursive;
-  font-size: 20px;
-  border-bottom: thin solid black;
-}
-
-body {
-  font-family: 'Oswald', sans-serif;
-}
-
 nav ul li, footer ul li, #nav ul li {
   display: inline;
   margin-right: 20px;
   color: black;
   font-size: 30px;
+
 }
+
+body{
+  background: url("bg2.png");
+  background-size: 2500px 3000px;
+  font-family: oswald;
+
+}
+nav {
+  background: url("bgq.png") no-repeat;
+  background-size: 100% 100%;
+  font-family: 'Chewy', cursive;
+  font-size: 20px;
+  border-bottom: thin solid black;
+  padding-top: 0px;
+  margin: 0;
+  padding-bottom: 20px;
+  padding-top: 10px;
+  border: 0;
+  outline: 0;
+  vertical-align: baseline;
+}
+
 
 nav ul, footer ul{
   padding: 0px;
   list-style: none;
   font-weight: bold;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  vertical-align: baseline;
 }
-
 #container {
   border-bottom: thin solid black;
 }
@@ -95,7 +116,7 @@ a {
 #about {
   border: 5px solid black;
   padding: 5px;
-  background-color: #ACCFDC;
+  background-color: #76D7C4;
 }
 
 #body {
