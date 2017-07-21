@@ -1,0 +1,221 @@
+<!DOCTYPE HTML>
+<html>
+<style>
+#rcorners2 {
+    border-radius: 25px;
+    border: 5px solid black;
+    padding: 10px;
+    width: 5500 px;
+    height: 150px;
+}
+nav {
+  font-family: 'Chewy', cursive;
+  font-size: 20px;
+  border-bottom: thin solid black;
+}
+
+body {
+  font-family: 'Oswald', sans-serif;
+}
+
+nav ul li, footer ul li{
+  display: inline;
+  margin-right: 20px;
+  color: black;
+  font-size: 30px;
+}
+
+nav ul, footer ul{
+  padding: 0px;
+  list-style: none;
+  font-weight: bold;
+}
+
+
+
+#img {
+  width: 10%;
+  height: 10%;
+  margin-bottom: -35px;
+}
+
+#help {
+  float: right;
+}
+
+#help {
+  border-radius: 4px;
+  background-color: #f49373;
+  border: none;
+  color: black;
+  text-align: center;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  float: right;
+}
+
+#help span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+#help span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+#help:hover span {
+  padding-right: 25px;
+}
+
+#help:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.care {
+  text-align: center;
+}
+
+.button {
+  border: thin solid black;
+  padding: 20px;
+}
+</style>
+  <head>
+    <title>Pet Care</title>
+    <link href="https://fonts.googleapis.com/css?family=Chewy|Oswald" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="cat.css">
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><img id =img src="logo.png"></li>
+        <li>Animal Shelters</li>
+        <li>Pet Stores</li>
+        <li>Pet Care</li>
+        <li>About Us</li>
+        <li>Q&A</li>
+        <li id=help><span>Donate</span></li>
+      </ul>
+    </nav>
+    <div id =container>
+      <br>
+      <div class="text">
+        <table style=" border: 5px solid Black ;margin:  0 auto; margin-top: 10px; color:black; background-color:#76D7C4; font-family:oswald; font-size: 50px" >
+
+<tr>
+<td>
+CAT CARE
+</td>
+</tr>
+</table>
+
+<br>
+
+<div id=head style="border-bottom: 5px dotted black;  ">
+
+</div>
+<div id= top>
+        <h2 style="font-size:40px; margin-left:100px; ">What they eat!</h2>
+
+
+<table id="rcorners2" style=" margin-left: 60px; margin-right: 70px; margin-bottom: 10px; margin-top: 5px; color:#fafaf6; background-color:#ecb3a2; font-family:oswald; font-size:25px; float: bottom; float: left;">
+<tr>
+<td>
+  <ul>
+    <li>Foods with <strong><u>taurine</u></strong></li>
+    <li>Canned cat food</li>
+    <li>Dry cat food</li>
+    <li>Water at all times</li>
+    <li>Treats only 5-10% of diet</li>
+  </ul>
+
+</td>
+</tr>
+</table>
+</div>
+
+<div id="next" >
+        <h2 style="margin-top: -92px; margin-left: 480px;float:bottom; font-size: 40px; ">How to feed them</h2>
+        <table id="rcorners2" style="float: bottom; float:left; margin-right: 70px; margin-top: 5px;margin-bottom: 10px; color:#fafaf6; background-color:#ecb3a2; font-family:oswald; font-size:25px;">
+<tr>
+<td>
+        <ul>
+          <li>8 weeks-6 months: 3 times a day</li>
+          <li>6 months-1 year: 2 times a day</li>
+          <li>1 year+: 1 time a day</li>
+        </ul>
+        </td>
+        </tr>
+        </table>
+        </div>
+       <div id= "daily">
+          <h2 style="font-size: 40px; float:top; margin-top: -92px; margin-left: 960px; ">Daily needs</h2>
+          <table id="rcorners2" style="float: right; margin-left:0px; margin-top: 5px; margin-right: 70px;  color:#fafaf6; background-color:#ecb3a2; font-family:oswald; font-size:25px;">
+<tr>
+<td>
+
+        <ol>
+          <li>Brush coat <br>(only bath a few times in a year)</li>
+          <li>Wear collar and <br>ID tag for outside</li>
+          <li>Scratching <br>(cut nails every 2-3 weeks)</li>
+          <li>Clean litter box</li>
+        </ol>
+        </td>
+        </tr>
+        </table>
+      </div>
+<div id= "bottomnext">
+  <h2 style="font-size:40px; margin-left:-390px;float: left; margin-bottom:5px;  margin-top: 70px">Pay attention to their health</h2>
+  <table id="rcorners2" style=" margin-left: 60px; margin-right: 80px; margin-top: 20px;  color:#fafaf6; background-color:#ecb3a2; font-family:oswald; font-size:25px; float: left;">
+  <tr>
+  <td>
+    <ul>
+          <li>See vet once a year</li>
+          <li>Female cats spayed by 5 mosnths</li>
+          <li>Male cats neutered by 5 months</li>
+        </ul>
+      </td>
+    </tr>
+  </table>
+</div>
+<div id= "nextrright">
+  <h2 style="font-size: 40px; margin-top: -1px; margin-left: 540px;  ">Everyday Supplies <br> Checklist!</h2>
+  <table id="rcorners2" style="float:left; float: bottom; margin-right: 70px; margin-: 5px; margin-top: 10px; color:#fafaf6; background-color:#ecb3a2; font-family:oswald; font-size:25px;">
+<tr>
+<td>
+    <ul>
+          <li>Cat food</li>
+          <li>Food & water dish</li>
+          <li>Toys</li>
+          <li>Brush & comb</li>
+          <li>Collar & leash</li>
+          <li>Scratching post</li>
+          <li>Litter box</li>
+          <li>Cat bed/box</li>
+        </ul>
+      </td>
+    </tr>
+  </table>
+</div>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+      </div>
+
+      <br>
+    </div>
+  </body>
+</html>
