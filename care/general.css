@@ -50,10 +50,6 @@ nav ul, footer ul{
 }
 
 #help {
-  float: right;
-}
-
-#help {
   border-radius: 4px;
   background-color: #f49373;
   border: none;
