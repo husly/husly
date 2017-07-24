@@ -144,11 +144,11 @@ a {
 }
 
 .button:hover {
-  background-color: #E2CO8f
+  background-color: #E2C08f;
 }
 
 .button:active {
-  background-color: #E2CO8f;
+  background-color: #E2C08f;
   box-shadow: 0 5px #B3B3EB;
   transform: translateY(4px);
 }
