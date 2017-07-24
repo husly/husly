@@ -1,12 +1,24 @@
 nav {
+  background: url("bgq.png") no-repeat;
+  background-size: 100% 100%;
   font-family: 'Chewy', cursive;
   font-size: 20px;
   border-bottom: thin solid black;
+  padding-top: 0px;
+  margin: 0;
+  padding-bottom: 20px;
+  padding-top: 10px;
+  border: 0;
+  outline: 0;
+  vertical-align: baseline;
 }
 
 body {
   font-family: 'Oswald', sans-serif;
+  background: url("bgqa.png") no-repeat;
+  background-size: cover;
 }
+
 
 nav ul li, footer ul li{
   display: inline;
