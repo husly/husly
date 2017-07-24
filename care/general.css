@@ -119,3 +119,8 @@ nav ul, footer ul{
 h2 {
   font-size: 33px;
 }
+
+a {
+  text-decoration: none;
+  color: black;
+}
