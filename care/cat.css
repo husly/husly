@@ -68,6 +68,10 @@ nav ul, footer ul{
   opacity: 1;
   right: 0;
 }
+a {
+  text-decoration: none;
+  color: black;
+}
 
 .care {
   text-align: center;
