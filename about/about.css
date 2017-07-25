@@ -4,7 +4,7 @@ h1 {
   padding-left: 20px;
   padding-right:20px;
   color: black;
-  text-align: left; 
+  text-align: left;
 }
 
 p {
@@ -148,6 +148,7 @@ a {
 
 #body {
   text-align: center;
+  font-size: 28px;
   border-bottom: 5px dotted black;
   border-top: 5px dotted black;
 }
