@@ -170,3 +170,11 @@ a:hover {
 #pad {
   padding-left: 100px;
 }
+
+a:hover{
+  color: #f49373;
+}
+
+#a:hover {
+   color: black;
+}
