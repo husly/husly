@@ -182,3 +182,11 @@ a {
   box-shadow: 0 5px #B3B3EB;
   transform: translateY(4px);
 }
+
+a:hover{
+  color: #f49373;
+}
+
+#a:hover {
+   color: black;
+}
