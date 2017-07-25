@@ -42,12 +42,7 @@ nav {
 h1{
 font-family:'oswald';
 color: black;
-text-align: left;
-font-size: 35px;
-padding-left: 20px;
-padding-right: 20px;
-	margin-bottom: 5px;
-
+text-align: center;
 }
 nav ul, footer ul, #nav ul{
  	font-family:'chewy';
@@ -94,7 +89,7 @@ nav, #nav {
   transition: all 0.5s;
   cursor: pointer;
   float: right;
-  margin-top: 22px;
+  margin-top: 20px;
 }
 #help span {
   cursor: pointer;
@@ -121,6 +116,52 @@ a {
   text-decoration: none;
   color: black;
 }
+
+.button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #B2B3EA;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #ACCFDC;
+  font-family: chewy;
+}
+
+.button:hover {
+  background-color: #5f9ea0;
+}
+
+.button:active {
+  background-color: #E2CO8f;
+  box-shadow: 0 5px #B3B3EB;
+  transform: translateY(4px);
+}
+
+.Fixed
+{
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: inline-block;
+  padding: 5px 15px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #ff8080;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 5px #ffb3cc;
+  font-family: chewy;
+}
 </style>
 
 <head>
@@ -131,6 +172,7 @@ a {
 <title>Animal Shelters</title>
 </head>
 <body>
+  <span id="top">
     <nav>
       <ul>
         <li><a href="/husly/home/home.html"><img id =img src="logo.png"></a></li>
@@ -143,17 +185,40 @@ a {
       </ul>
     </nav>
 <br>
-<table style="border: 5px solid Black ;margin:  0 auto; margin-top: 5px; color:black; background-color:#ACCFDC; font-family:Oswald; font-size:20px; " >
+<table style="border: 5px solid Black ;margin:  0 auto; margin-top: 20px; color:black; background-color:#ACCFDC; font-family:Oswald; font-size:20px; Padding: 20px 30px 30px 20px" >
 <tr>
 <td>
-	<h1 >
+	<h1>
 SHELTERS IN THE BAY AREA!
-		<div id=head style="border-bottom: 5px dotted black; margin-bottom: 5px; ">
-		</div>
 	</h1>
+<div id=head style="border-bottom: 5px dotted black; padding-top:0px; ">
+</div>
 </td>
 </tr>
 </table>
+
+<u style="margin-right:20px;"><p style="text-align:center; font-family chewy; margin: 20px; font-size:30px; padding: 20px; padding-left:200px;padding-right:200px;">
+<a href="#alameda">Alameda</a></u>
+<u style="margin-right: 20px"><a href="#berkeley">Berkeley</a></u>
+<u style="margin-right: 20px"><a href="#burlingame">Burlingame</a></u>
+<u style="margin-right: 20px"><a href="#dublin">Dublin</a></u>
+<u style="margin-right: 20px"><a href="#fremont">Fremont</a></u>
+<u style="margin-right: 20px"><a href="#hayward">Hayward</a></u>
+<u style="margin-right: 20px"><a href="#livermore">Livermore</a></u>
+<u style="margin-right: 20px"><a href="#novato">Novato</a></u>
+<u style="margin-right: 20px"><a href="#oakland">Oakland</a></u>
+<u style="margin-right: 20px"><a href="#pinole">Pinole</a></u>
+<u style="margin-right: 20px"><a href="#redwoodcity">Redwood City</a></u>
+<u style="margin-right: 20px"><a href="#sanfrancisco">San Francisco</a></u>
+<br>
+<u style="margin-right: 20px"><a href="#sanjose">San Jose</a></u>
+<u style="margin-right: 20px"><a href="#sanpablo">San Pablo</a></u>
+<u style="margin-right: 20px"><a href="#sanrafael">San Rafael</a></u>
+<u style="margin-right: 20px"><a href="#santaclara">Santa Clara</a></u>
+
+<a href="#top"><span class=Fixed>^ Top ^</span></a>
+
+<span id="alameda">
 <h1 style="text-align: left; font-family:Oswald; font-size: 35; margin-left: 10px;">
 <div id=head style="border-bottom: 5px dotted black ">
 Alameda
@@ -169,9 +234,14 @@ Friends of the Alameda Animal Shelter
 
 -- 1590 Fortmann Way, Alameda, CA 94501 <br>
 -- (510) 337-8565
+
+<a style="padding-left: 35px;" href="http://www.alamedaanimalshelter.org/"><span class=button>Their website</span></a>
+
 </td>
 </tr>
 </table>
+</span>
+<span id="berkeley">
 <h1 style="font-family: oswald; font-size: 35; margin-left: 10px; text-align: left;">
 <div id=head style="border-bottom: 5px dotted black ">
 Berkeley
@@ -186,6 +256,7 @@ Berkeley Animal Care Services-Pound
 <br>
 -- 1 Bolivar Dr, Berkeley, CA 94710 <br>
 -- (510)981-6600
+<a style="padding-left:35px;" href="http://www.ci.berkeley.ca.us/animalservices/"><span class=button>Their website</span></a>
 </td>
 </tr>
 </table>
@@ -195,10 +266,11 @@ Berkeley Animal Care Services-Pound
 <u>
 
 Berkeley Humane
-	</u>
-    <br>
-    -- 2700 ninth street, Berkeley, CA 94710 <br>
+</u>
+<br>
+-- 2700 ninth street, Berkeley, CA 94710 <br>
 -- (510)845-7735
+ <a style="padding-left:35px;" href="https://berkeleyhumane.org/"><span class=button>Their website</span></a>
 </td>
 </tr>
 </table>
@@ -210,17 +282,20 @@ Berkeley Humane
 Paw Fund
 </u>
 <br>
-	-- Addison St & Bolivar Dr, Berkeley, CA 94710 <br>
+-- Addison St & Bolivar Dr, Berkeley, CA 94710 <br>
 -- (510)390-3488
+ <a style="padding-left:35px;" href="http://pawfund.org/"><span class=button>Their website </span></a>
 </td>
 </tr>
 </table>
+<span id="burlingame">
 <h1 style="font-family: oswald; font-size: 35; margin-left: 10px; text-align: left;">
 <div id=head style="border-bottom: 5px dotted black ">
 Burlingame
 </div>
 </h1>
 <table id="rcorners2" style="   margin-top: 15px;  color:black; margin-left: 10px; background-color:#D7BDE2; font-family:oswald; font-size:30;   ">
+</span>
 <tr>
 <td>
 <u>
@@ -228,98 +303,118 @@ Peninsula Humane Society & SPCA adoption Center </u>
 <br>
 	-- 1450 Rollins RD, Burlingame, CA 94010 <br>
 	-- (650)340-7022
+  <a style="padding-left:35px;" href="https://peninsulahumanesociety.org/"><span class=button>Their website </span></a>
     </td>
     </tr>
     </table>
+  </span>
+    <span id="dublin">
    <h1 style="font-family: oswald; font-size: 35; margin-left: 10px; text-align: left;">
 <div id=head style="border-bottom: 5px dotted black ">
 Dublin
 </div>
 </h1>
 <table id="rcorners2" style=" margin-top: 15px;  color:black; margin-left: 10px; background-color:#D7BDE2; font-family:oswald; font-size:30;   ">
+</span>
 <tr>
 <td>
 <u>
 East Bay SPCA Dublin
 </u>
-<br>-- 4651 Gleason Dr, CA 94568 <br>
+<br>-- 4651 Gleason Dr Dublin,CA 94568 <br>
 -- (925)479-9670
+<a style="padding-left:35px;" href="http://eastbayspca.org/"><span class=button>Their website</span></a>
 </td>
 </tr>
 </table>
+<span id="fremont">
  <h1 style="font-family: oswald; font-size: 35; margin-left: 10px; text-align: left;">
 <div id=head style="border-bottom: 5px dotted black ">
 Fremont
 </div>
 </h1>
 <table id="rcorners2" style="  margin-top: 15px;  color:black; margin-left: 10px; background-color:#D7BDE2; font-family:oswald; font-size:30;   ">
+</span>
 <tr>
 <td>
 <u>Tri-city Animal shelter </u>
-<br>-- 1950 stevenson Blvd Fremont, CA 94538 <br>
+<br>-- 1950 Stevenson Blvd Fremont, CA 94538 <br>
 	-- (510)790-6640
+  <a style="padding-left:35px;" href="http://www.fremontpolice.org/index.aspx?NID=332"><span class=button>Their website</span></a>
    </td>
    </tr>
    </table>
+   <span id="hayward">
  <h1 style="font-family: oswald; font-size: 35;text-align: left; margin-left: 10px">
 <div id=head style="border-bottom: 5px dotted black ">
 Hayward
 </div>
 </h1>
 <table id="rcorners2" style="  margin-top: 15px;  color:black; margin-left: 10px; background-color:#D7BDE2; font-family:oswald; font-size:30;   ">
+</span>
 <tr>
 <td>
 <u>
 Hayward Animal Shelter
 </u>
 <br>
--- 16 Barnes Ct, Hayward CA 94544 <br>
+-- 16 Barnes Ct Hayward,CA 94544 <br>
 -- (510)293-7200
+<a style="padding-left:35px;" href="http://www.haywardanimals.org/"><span class=button>Their website</span></a>
 </td>
 <tr>
 </table>
+<span id="livermore">
 <h1 style="font-family: oswald; font-size: 35;text-align: left; margin-left: 10px">
 <div id=head style="border-bottom: 5px dotted black ">
 Livermore
 </div>
     </h1>
     <table id="rcorners2" style="   margin-top: 15px;  color:black; margin-left: 10px; background-color:#D7BDE2; font-family:oswald; font-size:30;   ">
+</span>
 <tr>
 <td>
 <u>
 Big dawgs Rescue Inc </u> <br>
 	-- 3875 California Way, Livermore, CA 94550 <br>
 	-- (925)337-6377
+  <a style="padding-left:35px;" href="http://www.bigdawgsrescue.org/"><span class=button>Their website</span></a>
  </td>
  </tr>
  </table>
+ <span id="novato">
  <h1 style="font-family: oswald; font-size: 35;text-align: left; margin-left: 10px">
 <div id=head style="border-bottom: 5px dotted black ">
 Novato
 </div>
     </h1>
     <table  id="rcorners2" style="   margin-top: 15px;  color:black; margin-left: 10px; background-color:#D7BDE2; font-family:oswald; font-size:30;   ">
+    </span>
     <tr>
     <td>
     <u>
  Jake’s Place Cat Rescue </u> <br>
 	-- 1530 Armstrong Ave #31, Novato, CA 94945 <br>
 	-- (415)548-0824
+  <a style="padding-left:35px;" href="http://www.jakesplacecatrescue.org/"><span class=button>Their website</span></a>
     </td>
     </tr>
     </table>
+    <span id="oakland">
  <h1 style="font-family: oswald; font-size: 35;text-align: left; margin-left: 10px">
 <div id=head style="border-bottom: 5px dotted black ">
 Oakland
 </div>
     </h1>
 <table id="rcorners2" style=" margin-right: 10px; color:black; margin-left: 10px; background-color:#D7BDE2; font-family:oswald; font-size:30;  float: left; ">
+</span>
     <tr>
     <td>
     <u>
 East Bay SPCA Oakland Adoption center </u> <br>
 -- 8323 Baldwin St. Oakland, CA 94621 <br>
 -- (510)569-0702
+ <a style="padding-left:35px;" href="http://eastbayspca.org/"><span class=button>Their website</span></a>
 
     </td>
     </tr>
@@ -331,6 +426,7 @@ East Bay SPCA Oakland Adoption center </u> <br>
 East Bay SPCA Oakland Adoption center </u> <br>
 -- 8323 Baldwin St. Oakland, CA 94621 <br>
 -- (510)569-0702
+ <a style="padding-left:35px;" href="<http://eastbayspca.org"><span class=button>Their website</span></a>
 
     </td>
     </tr>
@@ -340,8 +436,10 @@ East Bay SPCA Oakland Adoption center </u> <br>
 <td>
 <u>
 Hopalong Animal rescue </u> <br>
--- 945 22nd Ave, oakland CA 94606 <br>
+-- 945 22nd Ave, Oakland CA 94606 <br>
 --(510)267-1915
+<a style="padding-left:35px;" href="http://www.hopalong.org/"><span class=button>Their website</span></a>
+
 
 </td>
 </tr>
@@ -353,6 +451,7 @@ Hopalong Animal rescue </u> <br>
 Oakland Animal Services </u> <br>
 -- 1101 29th Ave, Oakland, CA 94601 <br>
 -- (510)535-5602
+ <a style="padding-left:35px;" href="http://www.oaklandanimalservices.org/"><span class=button>Their website</span></a>
 
     </td>
     </tr>
@@ -365,22 +464,26 @@ Oakland Animal Services </u> <br>
  Rocket Dog rescue  </u> <br>
 	-- 3561 Foothill blvd, Oakland, CA 94601 <br>
 	--(415)756-8188
+<a style="padding-left:35px;" href="https://www.rocketdogrescue.org/"><span class=button>Their website</span></a>
 
 </td>
 </tr>
 </table>
+<span id="pinole">
 <h1 style="font-family: oswald; font-size: 35;text-align: left; margin-left: 10px">
 <div id=head style="border-bottom: 5px dotted black ">
 Pinole
 </div>
     </h1>
     <table id="rcorners2" style="margin-right: 10px; color:black; margin-left: 10px; background-color:#D7BDE2; font-family:oswald; font-size:30;  float: left; ">
+</span>
     <tr>
     <td>
     <u>
 Contra Costa County Animal Services </u> <br>
 -- 910 San Pablo Ave, Pinole, CA 94564 <br>
---  (510)942-4500
+-- (510)942-4500
+<a style="padding-left:35px;" href="http://www.co.contra-costa.ca.us/59/Animal-Services"><span class=button>Their website</span></a>
 
     </td>
     </tr>
@@ -392,38 +495,45 @@ Contra Costa County Animal Services </u> <br>
 Goldie & Papi’s Animal Rescue  </u> <br>
 -- 1380 Fitzgerald Dr, Pinole, CA 94564 <br>
 -- (510)712-2471
+<a style="padding-left:35px;" href="http://www.goldieandpapisanimalrescue.com/"><span class=button>Their website</span></a>
 
 </td>
 </tr>
 </table>
+<span id="redwoodcity">
 <h1 style="font-family: oswald; font-size: 35;text-align: left; margin-left: 10px">
 <div id=head style="border-bottom: 5px dotted black ">
 Redwood City
 </div>
     </h1>
    <table id="rcorners2"  style=" margin-top: 15px;  color:black; margin-left: 10px; background-color:#D7BDE2; font-family:oswald; font-size:30;   ">
+</span>
 <tr>
 <td>
 <u>
 Pets in need </u> <br>
 	-- 871 Fifth Ave, Redwood city, CA 94063 <br>
 	-- (650)367-1405
+  <a style="padding-left:35px;" href=:"http://www.petsinneed.org/"><span class=button>Their website</span></a>
 
     </td>
     </tr>
     </table>
+    <span id="sanfrancisco">
    <h1 style="font-family: oswald; font-size: 35;text-align: left; margin-left: 10px">
 <div id=head style="border-bottom: 5px dotted black ">
 San Francisco
 </div>
     </h1>
 <table id="rcorners2"  style="margin-right: 10px; color:black; margin-left: 10px; background-color:#D7BDE2; font-family:oswald; font-size:30;  float: left; ">
+</span>
     <tr>
     <td>
     <u>
       Northern California Family Dog Rescue </u> <br>
-     	-- 255 Alabama st, San Francisco, CA 94103 <br>
+     	-- 2253 Shafter Ave, San Francisco, CA 94103 <br>
      	-- (415)935-3647
+      <a style="padding-left:35px;" href=:"http://www.wearefamilydog.com/contact/"><span class=button>Their website</span></a>
     </td>
     </tr>
     </table>
@@ -434,6 +544,7 @@ San Francisco
       San Francisco Animal Care and control </u> <br>
       	-- 1200 15th St, San Francisco, CA 94103 <br>
       	-- (415)554-6364
+        <a style="padding-left:35px;" href=:"http://www.sfanimalcare.org/"><span class=button>Their website</span></a>
     </td>
     </tr>
     </table>
@@ -443,7 +554,8 @@ San Francisco
 <u>
 San Francisco SPCA Mission Adoption Center
 </u> <br>	-- 250 Florida St, San Francisco, CA 94103 <br>
-	-- (415)522-3500
+	        -- (415)522-3500
+<a style="padding-left:35px;" href=:"https://www.sfspca.org/"><span class=button>Their website</span></a>
 
 
 </td>
@@ -456,6 +568,7 @@ San Francisco SPCA Mission Adoption Center
       San Francisco SPCA Pacific Heights Adoption Center </u> <br>
       	-- 2343 Fillmore St, San Francisco, CA 94115 <br>
       	-- (415) 522-3500
+         <a style="padding-left:35px;" href=:"https://www.sfspca.org/"><span class=button>Their website</span></a>
 
     </td>
     </tr>
@@ -468,70 +581,84 @@ San Francisco SPCA Mission Adoption Center
   Wonder Dog Rescue
   </u> <br>	-- 2926 16th St, San Francisco, CA 94103<br>
   	-- (415)621-3647
+    <a style="padding-left:35px;" href=:"http://www.wonderdogrescue.org/"><span class=button>Their website</span></a>
 </td>
 </tr>
 </table>
+<span id="sanjose">
 <h1 style="font-family: oswald; font-size: 35;text-align: left; margin-left: 10px">
 <div id=head style="border-bottom: 5px dotted black ">
 San Jose
 </div>
     </h1>
     <table id="rcorners2" style="margin:  0 auto;  margin-top: 5px; margin-left: 10px; color:black; background-color:#D7BDE2; font-family:oswald; font-size:30; ">
+</span>
 <tr>
 <td>
 <u>
  Safe Haven Animal Sanctuary </u> <br>
 	-- 1414 Saratoga Ave, San Jose, CA 95129 <br>
 	-- (408)420-7233
+   <a style="padding-left:35px;" href=:"http://safehavenanimalsanctuary.org/index.php"><span class=button>Their website</span></a>
 
 </td>
 </tr>
 </table>
+<span id="sanpablo">
  <h1 style="font-family: oswald; font-size: 35;text-align: left; margin-left: 10px">
  <div id=head style="border-bottom: 5px dotted black ">
 San Pablo
 </div>
     </h1>
       <table id="rcorners2" style="margin:  0 auto;  margin-top: 5px; margin-left: 10px; color:black; background-color:#D7BDE2; font-family:oswald; font-size:30; ">
+</span>
 <tr>
 <td>
 <u>
  Animal Refugee Response </u> <br>
 -- 2905 San Pablo Dam Rd, San Pablo, CA 94803 <br>
 -- (510)230-3758
+<a style="padding-left:35px;" href=:"http://animalrefugee.org/"><span class=button>Their website</span></a>
 </td>
 </tr>
 </table>
+<span id="sanrafael">
 <h1 style="font-family: oswald; font-size: 35;text-align: left; margin-left: 10px">
  <div id=head style="border-bottom: 5px dotted black ">
 San Rafael
 </div>
     </h1>
     <table id="rcorners2" style="margin:  0 auto;  margin-top: 5px; margin-left: 10px; color:black; background-color:#D7BDE2; font-family:oswald; font-size:30; ">
+</span>
 <tr>
 <td>
 <u>
  WildCare Solutions  </u> <br>
 	-- 76 Albert park Ln, San Rafael, CA 94601 <br>
 	-- (415)456-7283
+  <a style="padding-left:35px;" href=:"http://www.discoverwildcare.org/"><span class=button>Their website</span></a>
 </td>
 </tr>
 </table>
+<span id="santaclara">
    <h1 style="font-family: oswald; font-size: 35;text-align: left; margin-left: 10px">
  <div id=head style="border-bottom: 5px dotted black ">
 Santa Clara
 </div>
     </h1>
     <table id="rcorners2"  style="margin:  0 auto;  margin-top: 5px; margin-left: 10px; color:black; background-color:#D7BDE2; font-family:oswald; font-size:30; ">
+</span>
 <tr>
 <td>
 <u>
 Silicon Valley Animal Control Authority  </u> <br>
 	-- 3370 Thomas Rd, Santa Clara, CA 95054 <br>
 	-- (408)764-0344
+  <a style="padding-left:35px;" href=:"http://www.discoverwildcare.org/"><span class=button>Their website</span></a>
 
 </td>
 </tr>
 </table>
+</span>
 </body>
 </html>
