@@ -29,6 +29,7 @@ nav ul, footer ul{
   width: 10%;
   height: 10%;
   margin-bottom: -35px;
+  margin-top: 12px;
 }
 
 #help {
@@ -46,6 +47,7 @@ nav ul, footer ul{
   transition: all 0.5s;
   cursor: pointer;
   float: right;
+  margin-top: 22px;
 }
 
 #help span {
