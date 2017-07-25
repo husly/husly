@@ -193,3 +193,11 @@ width: 350px;
   padding: 0px 13px 13px 13px;
   background-color: #ACCFDC;
 }
+
+a:hover{
+  color: #f49373;
+}
+
+#a:hover {
+   color: black;
+}
