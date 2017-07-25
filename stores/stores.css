@@ -193,6 +193,10 @@ a {
   color: black;
 }
 
+a:hover {
+  color: #f49373;
+}
+
 .button {
   display: inline-block;
   padding: 15px 25px;
