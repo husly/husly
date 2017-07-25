@@ -239,3 +239,7 @@ a {
     font-family: chewy;
 
 }
+
+a:hover {
+  color: #f49373;
+}
