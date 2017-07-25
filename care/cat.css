@@ -201,3 +201,11 @@ a {
   border: thin solid black;
   padding: 20px;
 }
+
+a:hover{
+  color: #f49373;
+}
+
+#a:hover {
+   color: black;
+}
