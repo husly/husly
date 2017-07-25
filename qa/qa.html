@@ -5,10 +5,12 @@
     <link href="https://fonts.googleapis.com/css?family=Chewy|Oswald" rel="stylesheet">
   </head>
   <style>
+
   body{
     background: url("bg2.png");
     background-size: 2500px 3000px;
   }
+
   nav ul li, footer ul li, #nav ul li {
       display: inline;
       margin-right: 20px;
@@ -20,14 +22,15 @@
       outline: 0;
       vertical-align: baseline;
   }
+
   h1{
-margin-top: 0px;
-margin-bottom: 3px;
+  padding-top: 0px;
   font-family:'Oswald';
   color: black;
   text-align: left;
   font-size: 35px;
   }
+
   h2{
   padding-left: 20px;
   padding-right: 20px;
@@ -36,6 +39,7 @@ margin-bottom: 3px;
   text-align: center;
   font-size: 30px;
   }
+
   p{
   padding-top: 0px;
   font-family:'Oswald';
@@ -43,12 +47,15 @@ margin-bottom: 3px;
   text-align: center;
   font-size: 25px;
   }
+
   p1{
   font-size: 25px;
   padding-left: 40px;
   font-family:chewy ;
   padding-right: 40px"
   }
+
+
   nav {
     background: url("bgq.png") no-repeat;
     background-size: 100% 100%;
@@ -62,9 +69,11 @@ margin-bottom: 3px;
     outline: 0;
     vertical-align: baseline;
   }
+
   #line {
       border-bottom: thin solid black;
   }
+
   body {
     font-family: 'Oswald', sans-serif;
     margin: 0;
@@ -73,12 +82,15 @@ margin-bottom: 3px;
     outline: 0;
     vertical-align: baseline;
   }
+
   nav ul li, footer ul li, #nav ul li {
     display: inline;
     margin-right: 20px;
     color: black;
     font-size: 30px;
+
   }
+
   nav ul, footer ul{
     padding: 0px;
     list-style: none;
@@ -89,19 +101,23 @@ margin-bottom: 3px;
     outline: 0;
     vertical-align: baseline;
   }
+
   #container {
     border-bottom: thin solid black;
   }
+
   #text {
     margin-left: 100px;
     margin-right: 100px;
   }
+
 #img {
   width: 130px;
   height: 120px;
   margin-bottom: -35px;
   margin-top: 12px;
 }
+
   #help {
     border-radius: 4px;
     background-color: #f49373;
@@ -115,12 +131,14 @@ margin-bottom: 3px;
     float: right;
     margin-top: 22px;
   }
+
   #help span {
     cursor: pointer;
     display: inline-block;
     position: relative;
     transition: 0.5s;
   }
+
   #help span:after {
     content: '\00bb';
     position: absolute;
@@ -129,13 +147,17 @@ margin-bottom: 3px;
     right: -20px;
     transition: 0.5s;
   }
+
   #help:hover span {
     padding-right: 25px;
   }
+
   #help:hover span:after {
     opacity: 1;
     right: 0;
   }
+
+
   hr {
   	text-align: center;
       display: block;
@@ -145,6 +167,7 @@ margin-bottom: 3px;
       border-style: inset;
       border-width: 1px;
   }
+
   .button {
     border: 0px;
     padding-top: 0px;
@@ -165,10 +188,12 @@ margin-bottom: 3px;
     padding-left: 200px;
     padding-right: 200px;
   }
+
   a {
     text-decoration: none;
     color: black;
   }
+
   </style>
   <body>
     <nav>
@@ -236,14 +261,14 @@ Q&A
       <p style= "padding-top:5px; ">
       <button class="button" onclick="myFunction6()"><p1> Q: I can no longer keep my pet. What should I do?  <input type="image" style="height:30px;width:20px; " src="Q.png"/></button>
       <div id="demo6" style="display: none; margin-right:300px; margin-left:300px; padding-bottom: 20px;font-family: oswald; font-size:25px; text-align:center;" >
-      A: It's always hard when you cannot care for your own pet anymore. You should contact organizations for pet animals and see if their could be anything you can do to keep your companion. If not, it's suggested to bring it to your local shelter.
+      A: It's always hard when you cannot care for your own pet anymore. You should contact organizations for pet animals and see if they can help you care for your pet. If not, it's suggested to bring it to your local shelter.
       </div>
       <hr></p></p1>
 
       <p style= "padding-top:5px; ">
-      <button class="button" onclick="myFunction7()"><p1> Q: What do shelters do?  <input type="image" style="height:30px;width:20px; " src="Q.png"/></button>
+      <button class="button" onclick="myFunction7()"><p1> Q: Do these shelters only take stray animals?  <input type="image" style="height:30px;width:20px; " src="Q.png"/></button>
       <div id="demo7" style="display: none; margin-right:300px; margin-left:300px; padding-bottom: 20px;font-family: oswald; font-size:25px; text-align:center;" >
-      A: It really depends on the shelter. Some take only strays or pets that were given up by their owner. Some shelters may do both. The animals are kept in the shelter to find them a home and you can be one of them that can!
+      A: It really depends on the shelter. Some take only strays or pets that were given up by their owner. Some shelters may do both. The animals are kept in the shelter until a home is found for them.
       </div>
       <hr></p></p1>
 
@@ -268,6 +293,7 @@ function myFunction1() {
         x.style.display = 'none';
     }
 }
+
 function myFunction2() {
     var x = document.getElementById('demo2');
     if (x.style.display === 'none') {
@@ -276,6 +302,7 @@ function myFunction2() {
         x.style.display = 'none';
     }
 }
+
 function myFunction3() {
     var x = document.getElementById('demo3');
     if (x.style.display === 'none') {
@@ -284,6 +311,7 @@ function myFunction3() {
         x.style.display = 'none';
     }
 }
+
 function myFunction4() {
     var x = document.getElementById('demo4');
     if (x.style.display === 'none') {
@@ -292,6 +320,7 @@ function myFunction4() {
         x.style.display = 'none';
     }
 }
+
 function myFunction5() {
     var x = document.getElementById('demo5');
     if (x.style.display === 'none') {
@@ -300,6 +329,7 @@ function myFunction5() {
         x.style.display = 'none';
     }
 }
+
 function myFunction6() {
     var x = document.getElementById('demo6');
     if (x.style.display === 'none') {
@@ -308,6 +338,7 @@ function myFunction6() {
         x.style.display = 'none';
     }
 }
+
 function myFunction7() {
     var x = document.getElementById('demo7');
     if (x.style.display === 'none') {
@@ -316,6 +347,7 @@ function myFunction7() {
         x.style.display = 'none';
     }
 }
+
 function myFunction8() {
     var x = document.getElementById('demo8');
     if (x.style.display === 'none') {
