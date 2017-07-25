@@ -192,3 +192,11 @@ a {
   text-decoration: none;
   color: black;
 }
+
+a:hover{
+  color: #f49373;
+}
+
+#a:hover {
+   color: black;
+}
